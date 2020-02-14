@@ -1,0 +1,59 @@
+Command to use:
+
+./enum.sh example.com
+
+where example.com is the domain who's subdomains you required
+
+Tools used:
+1. Amass
+2. sublister
+3. assetfinder
+4. certsh
+5. httprobe
+
+What tool do:
+
+1. It creates a directory called example.com in desktop
+
+2. use Amass to find subdomains and store in a file name domains.txt
+
+3. gives count of the domains
+
+4. use Sublister to find more domains and store them in sublister.txt
+
+5. copy all domains from sublister.txt to domains.txt
+
+6. give count of domains
+
+7. use assetfinder to find more domains and add them to domains.txt
+
+8. give count of domains
+
+9. get root domains and store them in rootdomains.txt
+
+10. give count of rootdomains.txt
+
+11. do certificate search on rootdomains.txt and adds them to domains.txt
+
+12. give count of domains.txt
+
+13. removes duplicate
+
+14.(OPTIONAL) if want to use altdns ,remove the comments but this takes too much time .
+
+15. gives final count of subdomains found
+
+16. find alive domains
+
+17.  format data to json
+
+--------------------------------------------------
+ 
+ MORE TO COME
+ 
+ ideas
+ 1. looking for subdomain takeover
+ 
+ 2. taking screenshots
+ -------------------------------------------------- 
+

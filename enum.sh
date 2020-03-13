@@ -29,7 +29,7 @@ python ~/tools/Sublist3r/sublist3r.py -d $1 -v -o ~/Desktop/recondata/$1/sublist
 cat ~/Desktop/recondata/$1/sublister.txt >> ~/Desktop/recondata/$1/domains.txt
 
 echo ""
-e	cho ""
+echo ""
 echo "count of domains.txt after sublister"
 cat ~/Desktop/recondata/$1/domains.txt | wc -l
 

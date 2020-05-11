@@ -1,0 +1,16 @@
+SSRF:
+ssrfire https://github.com/michaelben6/SSRFire
+
+Spider :
+https://github.com/hakluke/hakrawler
+
+
+Mining parameters from dark corners of Web Archives + gf(tomnomnom):
+https://github.com/devanshbatham/ParamSpider
+https://twitter.com/0xAsm0d3us/status/1250303365390561289/photo/1
+
+
+XSS:
+cat subdomains.txt | waybackurls >> wayback.txt
+cat domains.txt | hakrawler -depth 3 -plain >>spider.txt
+cat spider.txt wayback.txt | kxss==XSS
